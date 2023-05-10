@@ -3,7 +3,7 @@
 # Shared cache: disabled
 # Workspace root: "/mnt/c/Users/Justin's Ideapad/CMSC/CMSC330/project-4b-abj32"
 # Auto-detected concurrency: 8
-$ /home/ajones32/.opam/4.13.0/bin/ocamlc.opt -config > /tmp/dune_face31_output
+$ /home/ajones32/.opam/4.13.0/bin/ocamlc.opt -config > /tmp/dune_db0d5f_output
 # Dune context:
 #  { name = "default"
 #  ; kind = "default"
@@ -112,33 +112,7 @@ $ /home/ajones32/.opam/4.13.0/bin/ocamlc.opt -config > /tmp/dune_face31_output
 #      ; windows_unicode = false
 #      }
 #  }
-$ (cd _build/default && /home/ajones32/.opam/4.13.0/bin/ocamlc.opt -w -40 -w -49 -nopervasives -nostdlib -g -bin-annot -I src/.p4b.objs/byte -no-alias-deps -o src/.p4b.objs/byte/p4b.cmo -c -impl src/p4b.ml-gen)
-$ (cd _build/default && /home/ajones32/.opam/4.13.0/bin/ocamldep.opt -modules -impl src/utils.ml) > _build/default/src/.p4b.objs/utils.ml.d
 $ (cd _build/default && /home/ajones32/.opam/4.13.0/bin/ocamldep.opt -modules -impl src/eval.ml) > _build/default/src/.p4b.objs/eval.ml.d
-$ (cd _build/default && /home/ajones32/.opam/4.13.0/bin/ocamldep.opt -modules -impl src/microCamlTypes.ml) > _build/default/src/.p4b.objs/microCamlTypes.ml.d
-$ (cd _build/default && /home/ajones32/.opam/4.13.0/bin/ocamldep.opt -modules -impl src/lexer.ml) > _build/default/src/.p4b.objs/lexer.ml.d
-> File "src/lexer.ml", line 69, characters 24-26:
-> 69 |       in tokenize_aux_2 if
->                              ^^
-> Error: Syntax error
-[2]
-$ (cd _build/default && /home/ajones32/.opam/4.13.0/bin/ocamldep.opt -modules -impl src/parser.ml) > _build/default/src/.p4b.objs/parser.ml.d
-$ (cd _build/default && /home/ajones32/.opam/4.13.0/bin/ocamldep.opt -modules -impl src/tokenTypes.ml) > _build/default/src/.p4b.objs/tokenTypes.ml.d
-$ (cd _build/default && /home/ajones32/.opam/4.13.0/bin/ocamlc.opt -w -40 -g -bin-annot -I src/.p4b.objs/byte -no-alias-deps -open P4b -o src/.p4b.objs/byte/p4b__MicroCamlTypes.cmo -c -impl src/microCamlTypes.ml)
-$ (cd _build/default && /home/ajones32/.opam/4.13.0/bin/ocamlc.opt -w -40 -g -bin-annot -I src/.p4b.objs/byte -no-alias-deps -open P4b -o src/.p4b.objs/byte/p4b__TokenTypes.cmo -c -impl src/tokenTypes.ml)
-$ (cd _build/default && /home/ajones32/.opam/4.13.0/bin/ocamldep.opt -modules -intf src/eval.mli) > _build/default/src/.p4b.objs/eval.mli.d
-$ (cd _build/default && /home/ajones32/.opam/4.13.0/bin/ocamldep.opt -modules -intf src/lexer.mli) > _build/default/src/.p4b.objs/lexer.mli.d
-$ (cd _build/default && /home/ajones32/.opam/4.13.0/bin/ocamldep.opt -modules -intf src/parser.mli) > _build/default/src/.p4b.objs/parser.mli.d
-$ (cd _build/default && /home/ajones32/.opam/4.13.0/bin/ocamlc.opt -w -40 -g -bin-annot -I src/.p4b.objs/byte -no-alias-deps -open P4b -o src/.p4b.objs/byte/p4b__Utils.cmo -c -impl src/utils.ml)
-$ (cd _build/default && /home/ajones32/.opam/4.13.0/bin/ocamlc.opt -w -40 -g -bin-annot -I src/.p4b.objs/byte -no-alias-deps -open P4b -o src/.p4b.objs/byte/p4b__Eval.cmi -c -intf src/eval.mli)
-$ (cd _build/default && /home/ajones32/.opam/4.13.0/bin/ocamlc.opt -w -40 -g -bin-annot -I src/.p4b.objs/byte -no-alias-deps -open P4b -o src/.p4b.objs/byte/p4b__Lexer.cmi -c -intf src/lexer.mli)
-$ (cd _build/default && /home/ajones32/.opam/4.13.0/bin/ocamlc.opt -w -40 -g -bin-annot -I src/.p4b.objs/byte -no-alias-deps -open P4b -o src/.p4b.objs/byte/p4b__Parser.cmi -c -intf src/parser.mli)
 $ (cd _build/default && /home/ajones32/.opam/4.13.0/bin/ocamlc.opt -w -40 -g -bin-annot -I src/.p4b.objs/byte -intf-suffix .ml -no-alias-deps -open P4b -o src/.p4b.objs/byte/p4b__Eval.cmo -c -impl src/eval.ml)
-> File "src/eval.ml", line 26, characters 51-54:
-> 26 |   | (var, value)::t -> if x = var then !value else ref-lookup t x
->                                                         ^^^
-> Error: This expression has type 'a -> 'a ref
->        but an expression was expected of type int
-[2]
-$ (cd _build/default && /home/ajones32/.opam/4.13.0/bin/ocamlc.opt -w -40 -g -bin-annot -I src/.p4b.objs/byte -intf-suffix .ml -no-alias-deps -open P4b -o src/.p4b.objs/byte/p4b__Parser.cmo -c -impl src/parser.ml)
-$ (cd _build/default && /home/ajones32/.opam/4.13.0/bin/ocamlc.opt -w -40 -w -24 -g -bin-annot -I src/.utop/.utop.eobjs/byte -I /home/ajones32/.opam/4.13.0/lib/findlib -I /home/ajones32/.opam/4.13.0/lib/lambda-term -I /home/ajones32/.opam/4.13.0/lib/logs -I /home/ajones32/.opam/4.13.0/lib/lwt -I /home/ajones32/.opam/4.13.0/lib/lwt/unix -I /home/ajones32/.opam/4.13.0/lib/lwt_react -I /home/ajones32/.opam/4.13.0/lib/mew -I /home/ajones32/.opam/4.13.0/lib/mew_vi -I /home/ajones32/.opam/4.13.0/lib/ocaml/compiler-libs -I /home/ajones32/.opam/4.13.0/lib/ocaml/threads -I /home/ajones32/.opam/4.13.0/lib/ocplib-endian -I /home/ajones32/.opam/4.13.0/lib/ocplib-endian/bigstring -I /home/ajones32/.opam/4.13.0/lib/react -I /home/ajones32/.opam/4.13.0/lib/result -I /home/ajones32/.opam/4.13.0/lib/trie -I /home/ajones32/.opam/4.13.0/lib/uchar -I /home/ajones32/.opam/4.13.0/lib/utop -I /home/ajones32/.opam/4.13.0/lib/uucp -I /home/ajones32/.opam/4.13.0/lib/uuseg -I /home/ajones32/.opam/4.13.0/lib/uutf -I /home/ajones32/.opam/4.13.0/lib/zed -I src/.p4b.objs/byte -no-alias-deps -o src/.utop/.utop.eobjs/byte/dune__exe__Utop.cmo -c -impl src/.utop/utop.ml-gen)
+$ (cd _build/default && /home/ajones32/.opam/4.13.0/bin/ocamlc.opt -w -40 -g -a -o src/p4b.cma src/.p4b.objs/byte/p4b.cmo src/.p4b.objs/byte/p4b__MicroCamlTypes.cmo src/.p4b.objs/byte/p4b__TokenTypes.cmo src/.p4b.objs/byte/p4b__Utils.cmo src/.p4b.objs/byte/p4b__Parser.cmo src/.p4b.objs/byte/p4b__Lexer.cmo src/.p4b.objs/byte/p4b__Eval.cmo)
+$ (cd _build/default && /home/ajones32/.opam/4.13.0/bin/ocamlc.opt -w -40 -w -24 -g -o src/.utop/utop.exe -output-complete-exe /home/ajones32/.opam/4.13.0/lib/ocaml/compiler-libs/ocamlcommon.cma /home/ajones32/.opam/4.13.0/lib/ocaml/compiler-libs/ocamlbytecomp.cma /home/ajones32/.opam/4.13.0/lib/ocaml/compiler-libs/ocamltoplevel.cma /home/ajones32/.opam/4.13.0/lib/findlib/findlib.cma /home/ajones32/.opam/4.13.0/lib/findlib/findlib_top.cma /home/ajones32/.opam/4.13.0/lib/logs/logs.cma -I /home/ajones32/.opam/4.13.0/lib/ocaml /home/ajones32/.opam/4.13.0/lib/lwt/lwt.cma /home/ajones32/.opam/4.13.0/lib/logs/logs_lwt.cma /home/ajones32/.opam/4.13.0/lib/ocaml/unix.cma -I /home/ajones32/.opam/4.13.0/lib/ocaml /home/ajones32/.opam/4.13.0/lib/ocaml/bigarray.cma -I /home/ajones32/.opam/4.13.0/lib/ocaml /home/ajones32/.opam/4.13.0/lib/ocplib-endian/ocplib_endian.cma /home/ajones32/.opam/4.13.0/lib/ocplib-endian/bigstring/ocplib_endian_bigstring.cma /home/ajones32/.opam/4.13.0/lib/ocaml/threads/threads.cma -I /home/ajones32/.opam/4.13.0/lib/ocaml /home/ajones32/.opam/4.13.0/lib/lwt/unix/lwt_unix.cma -I /home/ajones32/.opam/4.13.0/lib/lwt/unix /home/ajones32/.opam/4.13.0/lib/react/react.cma /home/ajones32/.opam/4.13.0/lib/lwt_react/lwt_react.cma /home/ajones32/.opam/4.13.0/lib/result/result.cma /home/ajones32/.opam/4.13.0/lib/uutf/uutf.cma /home/ajones32/.opam/4.13.0/lib/uucp/uucp.cma /home/ajones32/.opam/4.13.0/lib/uuseg/uuseg.cma /home/ajones32/.opam/4.13.0/lib/zed/zed.cma /home/ajones32/.opam/4.13.0/lib/trie/trie.cma /home/ajones32/.opam/4.13.0/lib/mew/mew.cma /home/ajones32/.opam/4.13.0/lib/mew_vi/mew_vi.cma /home/ajones32/.opam/4.13.0/lib/lambda-term/lambda_term.cma -I /home/ajones32/.opam/4.13.0/lib/lambda-term /home/ajones32/.opam/4.13.0/lib/utop/uTop.cma /home/ajones32/.opam/4.13.0/lib/ocaml/str.cma -I /home/ajones32/.opam/4.13.0/lib/ocaml src/p4b.cma src/.utop/.utop.eobjs/byte/dune__exe__Utop.cmo -linkall -warn-error -31)

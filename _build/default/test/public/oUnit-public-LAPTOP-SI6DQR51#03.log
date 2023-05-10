@@ -1,0 +1,21 @@
+2023-05-02T00:37:53+00:00 LAPTOP-SI6DQR51#03 I: Start test public:2:public_mutop_simple_def_and_let.
+2023-05-02T00:37:53+00:00 LAPTOP-SI6DQR51#03 I: Test public:2:public_mutop_simple_def_and_let is successful.
+2023-05-02T00:37:53+00:00 LAPTOP-SI6DQR51#03 I: End test public:2:public_mutop_simple_def_and_let.
+2023-05-02T00:37:53+00:00 LAPTOP-SI6DQR51#03 I: Start test public:6:public_expr_let_if.
+2023-05-02T00:37:53+00:00 LAPTOP-SI6DQR51#03 I: Test public:6:public_expr_let_if is successful.
+2023-05-02T00:37:53+00:00 LAPTOP-SI6DQR51#03 I: End test public:6:public_expr_let_if.
+2023-05-02T00:37:53+00:00 LAPTOP-SI6DQR51#03 I: Start test public:10:public_expr_simple_equal.
+2023-05-02T00:37:53+00:00 LAPTOP-SI6DQR51#03 I: Test public:10:public_expr_simple_equal is successful.
+2023-05-02T00:37:53+00:00 LAPTOP-SI6DQR51#03 I: End test public:10:public_expr_simple_equal.
+2023-05-02T00:37:53+00:00 LAPTOP-SI6DQR51#03 I: Start test public:14:public_expr_simple_sub.
+2023-05-02T00:37:53+00:00 LAPTOP-SI6DQR51#03 I: Test public:14:public_expr_simple_sub is successful.
+2023-05-02T00:37:53+00:00 LAPTOP-SI6DQR51#03 I: End test public:14:public_expr_simple_sub.
+2023-05-02T00:37:53+00:00 LAPTOP-SI6DQR51#03 I: Start test public:15:public_expr_simple_sum.
+2023-05-02T00:37:53+00:00 LAPTOP-SI6DQR51#03 I: Test public:15:public_expr_simple_sum is successful.
+2023-05-02T00:37:53+00:00 LAPTOP-SI6DQR51#03 I: End test public:15:public_expr_simple_sum.
+2023-05-02T00:37:53+00:00 LAPTOP-SI6DQR51#03 I: Start test public:22:public_expr_single_not.
+2023-05-02T00:37:53+00:00 LAPTOP-SI6DQR51#03 I: Test public:22:public_expr_single_not is successful.
+2023-05-02T00:37:53+00:00 LAPTOP-SI6DQR51#03 I: End test public:22:public_expr_single_not.
+2023-05-02T00:37:53+00:00 LAPTOP-SI6DQR51#03 I: Start test public:26:public_err_div_by_zero.
+2023-05-02T00:37:53+00:00 LAPTOP-SI6DQR51#03 I: Test public:26:public_err_div_by_zero is successful.
+2023-05-02T00:37:53+00:00 LAPTOP-SI6DQR51#03 I: End test public:26:public_err_div_by_zero.

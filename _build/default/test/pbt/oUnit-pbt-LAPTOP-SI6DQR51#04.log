@@ -1,0 +1,6 @@
+2023-05-02T00:37:54+00:00 LAPTOP-SI6DQR51#04 I: Start test pbt:3:test_operator_precedence.
+2023-05-02T00:37:54+00:00 LAPTOP-SI6DQR51#04 I: 
+2023-05-02T00:37:54+00:00 LAPTOP-SI6DQR51#04 I: law test_operator_precedence: 1000 relevant cases (1000 total)
+2023-05-02T00:37:54+00:00 LAPTOP-SI6DQR51#04 I: 
+2023-05-02T00:37:54+00:00 LAPTOP-SI6DQR51#04 I: Test pbt:3:test_operator_precedence is successful.
+2023-05-02T00:37:54+00:00 LAPTOP-SI6DQR51#04 I: End test pbt:3:test_operator_precedence.

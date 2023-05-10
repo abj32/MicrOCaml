@@ -1,0 +1,24 @@
+2023-05-02T00:37:53+00:00 LAPTOP-SI6DQR51#01 I: Start test public:0:public_nothing.
+2023-05-02T00:37:53+00:00 LAPTOP-SI6DQR51#01 I: Test public:0:public_nothing is successful.
+2023-05-02T00:37:53+00:00 LAPTOP-SI6DQR51#01 I: End test public:0:public_nothing.
+2023-05-02T00:37:53+00:00 LAPTOP-SI6DQR51#01 I: Start test public:4:public_expr_apply.
+2023-05-02T00:37:53+00:00 LAPTOP-SI6DQR51#01 I: Test public:4:public_expr_apply is successful.
+2023-05-02T00:37:53+00:00 LAPTOP-SI6DQR51#01 I: End test public:4:public_expr_apply.
+2023-05-02T00:37:53+00:00 LAPTOP-SI6DQR51#01 I: Start test public:8:public_expr_minus_one.
+2023-05-02T00:37:53+00:00 LAPTOP-SI6DQR51#01 I: Test public:8:public_expr_minus_one is successful.
+2023-05-02T00:37:53+00:00 LAPTOP-SI6DQR51#01 I: End test public:8:public_expr_minus_one.
+2023-05-02T00:37:53+00:00 LAPTOP-SI6DQR51#01 I: Start test public:12:public_expr_simple_div.
+2023-05-02T00:37:53+00:00 LAPTOP-SI6DQR51#01 I: Test public:12:public_expr_simple_div is successful.
+2023-05-02T00:37:53+00:00 LAPTOP-SI6DQR51#01 I: End test public:12:public_expr_simple_div.
+2023-05-02T00:37:53+00:00 LAPTOP-SI6DQR51#01 I: Start test public:16:public_expr_single_and.
+2023-05-02T00:37:53+00:00 LAPTOP-SI6DQR51#01 I: Test public:16:public_expr_single_and is successful.
+2023-05-02T00:37:53+00:00 LAPTOP-SI6DQR51#01 I: End test public:16:public_expr_single_and.
+2023-05-02T00:37:53+00:00 LAPTOP-SI6DQR51#01 I: Start test public:20:public_expr_single_let.
+2023-05-02T00:37:53+00:00 LAPTOP-SI6DQR51#01 I: Test public:20:public_expr_single_let is successful.
+2023-05-02T00:37:53+00:00 LAPTOP-SI6DQR51#01 I: End test public:20:public_expr_single_let.
+2023-05-02T00:37:53+00:00 LAPTOP-SI6DQR51#01 I: Start test public:23:public_expr_single_number.
+2023-05-02T00:37:53+00:00 LAPTOP-SI6DQR51#01 I: Test public:23:public_expr_single_number is successful.
+2023-05-02T00:37:53+00:00 LAPTOP-SI6DQR51#01 I: End test public:23:public_expr_single_number.
+2023-05-02T00:37:53+00:00 LAPTOP-SI6DQR51#01 I: Start test public:27:public_mutop_factorial.
+2023-05-02T00:37:53+00:00 LAPTOP-SI6DQR51#01 I: Test public:27:public_mutop_factorial is successful.
+2023-05-02T00:37:53+00:00 LAPTOP-SI6DQR51#01 I: End test public:27:public_mutop_factorial.
