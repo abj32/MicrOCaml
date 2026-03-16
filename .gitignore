@@ -1,1 +1,36 @@
+# Dune build directory
 _build/
+
+# OCaml compiled artifacts
+*.cmi
+*.cmo
+*.cmx
+*.cmxa
+*.cmxs
+*.a
+*.o
+
+# OCaml toplevel files
+*.cma
+*.annot
+
+# Dune / OCaml dev tooling
+.merlin
+.ocamlformat
+*.install
+
+# Editor files
+*~
+#*#
+.DS_Store
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# opam switch artifacts (if ever added locally)
+.opam/
+
+# Coverage / test artifacts
+coverage/
