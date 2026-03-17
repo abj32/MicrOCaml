@@ -2,11 +2,11 @@
 
 An interpreter and interactive REPL for **MicroCaml**, a small functional programming language based on a subset of OCaml.
 
-This project implements the core components of a programming language runtime:
+This project implements the core components of a small functional language interpreter:
 
-- **Lexical analysis**
+- **Lexical analysis** (tokenizing source code)
 - **Parsing into an Abstract Syntax Tree (AST)**
-- **Environment-based evaluation**
+- **Environment-based evaluation with closures**
 - **Interactive REPL (Mutop)**
 
 The interpreter was developed as part of **CMSC330: Organization of Programming Languages** at the University of Maryland.
