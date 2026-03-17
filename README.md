@@ -7,7 +7,7 @@ This project implements the core components of a small functional language inter
 - **Lexical analysis** (tokenizing source code)
 - **Parsing into an Abstract Syntax Tree (AST)**
 - **Environment-based evaluation with closures**
-- **Interactive REPL (Mutop)**
+- **Interpreter integrated with an interactive REPL (Mutop)**
 
 The interpreter was developed as part of **CMSC330: Organization of Programming Languages** at the University of Maryland.
 
@@ -62,7 +62,7 @@ Core components:
 | `src/parser.ml` | Parses MicroCaml expressions and Mutop commands |
 | `src/eval.ml` | Evaluates expressions and Mutop statements |
 | `src/microCamlTypes.ml` | Defines AST and runtime types |
-| `bin/mutop.ml` | Implements the interactive REPL loop |
+| `bin/mutop.ml` | Provided REPL that interfaces with the interpreter |
 
 `mutop.ml` reads user input until `;;`, invokes the lexer/parser/evaluator pipeline, prints results, and preserves the environment across commands such as `def x = 5;;`.
 
@@ -78,7 +78,7 @@ docs/microcaml-opsem.pdf
 
 ## Mutop REPL
 
-The project includes **Mutop**, an interactive environment for executing MicroCaml code.
+The project includes **Mutop**, a provided interactive REPL used to execute MicroCaml programs.
 
 Mutop supports two kinds of inputs.
 
