@@ -13,6 +13,15 @@ The interpreter was developed as part of **CMSC330: Organization of Programming 
 
 <br>
 
+## Assignment Specification
+
+The project was implemented according to the CMSC330 Project 4 specification:
+
+- [Project 4A – Lexer and Parser](https://github.com/cmsc330-umd/spring23/tree/main/projects/project4a)
+- [Project 4B – Interpreter and Mutop REPL](https://github.com/cmsc330-umd/spring23/tree/main/projects/project4b)
+
+<br>
+
 ## Demo
 
 <p align="center">
